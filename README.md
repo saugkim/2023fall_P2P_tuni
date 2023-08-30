@@ -30,3 +30,8 @@ You can run all nodes on one PC by using different port numbers on each one. You
 
 We expect that you know how to install programs, set up IP addresses and do basic operations in the terminal.  
 Due to scarce resources, only limited support will be available for setting up the lab environment. We expect to be mainly answering questions about the lab itself and clarifying the instructions.
+
+
+https://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/
+
+
