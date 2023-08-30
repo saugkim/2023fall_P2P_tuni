@@ -22,8 +22,8 @@ Note #2: Instructions might work on Windows 11 as well, but they haven't been te
 6. Run the scripts as described in the instructions .pdf
  
 
-Video tutorial for step 1 and basic usage: 
-
+Video tutorial for step 1 and basic usage:   
+https://youtu.be/5RTSlby-l9w
 
 
 
