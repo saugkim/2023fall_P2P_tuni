@@ -34,4 +34,7 @@ Due to scarce resources, only limited support will be available for setting up t
 
 https://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/
 
+https://dev.to/envoy_/learn-blockchains-by-building-one-in-python-2kb3
+
+https://builtin.com/blockchain/create-your-own-blockchain
 
