@@ -38,3 +38,7 @@ https://dev.to/envoy_/learn-blockchains-by-building-one-in-python-2kb3
 
 https://builtin.com/blockchain/create-your-own-blockchain
 
+https://github.com/dvf/blockchain
+
+https://github.com/julienr/ipynb_playground/blob/master/bitcoin/dumbcoin/dumbcoin.ipynb
+
