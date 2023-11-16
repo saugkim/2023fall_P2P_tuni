@@ -24,7 +24,7 @@ GUI2 (http://127.0.0.1:5000/)
 GUI2 (http://127.0.0.1:5000/configure)
   Add blockchain nodes -> Node URLs  http://127.0.0.1:5001  -> Add Node
 
-
+do Valid transaction
 GUI1 (http://127.0.0.1:8080/make/transaction):
   Make Transactions ->
   sender   Node 1
@@ -32,6 +32,13 @@ GUI1 (http://127.0.0.1:8080/make/transaction):
   amount   2
   result   success
 
+do invalid transaction
+GUI1 (http://127.0.0.1:8080/make/transaction):
+  Make Transactions ->
+  sender   Node 1
+  receiver Node 2
+  amount   6
+  result   ?
 ```
 
 **Node 2**
