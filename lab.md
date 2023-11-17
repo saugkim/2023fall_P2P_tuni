@@ -2,6 +2,24 @@
 
 Environment 1: Ubuntu 22.04 (Oracle VM VirtualBox)  
 
+```
+sudo apt update
+sudo apt upgrade
+sudo apt install python3-pip
+pip 
+wget https://github.com/adilmoujahid/blockchain-python-tutorial
+
+pip install ed25519 Crypto pycryptodome sortedcontainers flask flask-cors
+
+sudo add-apt-repository ppa:wireshark-dev/stable
+sudo apt-get update
+sudo apt-get install wireshark
+
+sudo wireshark
+sudo dpkg-reconfigure wireshark-common
+sudo adduser $USER wireshark
+```
+
 **Node 1**
 ```
 T1>> cd blockchain_client
