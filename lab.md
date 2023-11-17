@@ -7,7 +7,7 @@ sudo apt update
 sudo apt upgrade
 sudo apt install python3-pip
 
-wget https://github.com/adilmoujahid/blockchain-python-tutorial
+git clone https://github.com/adilmoujahid/blockchain-python-tutorial
 mv blockchain-python-tutorial bc
 
 pip install ed25519 Crypto pycryptodome sortedcontainers flask flask-cors
