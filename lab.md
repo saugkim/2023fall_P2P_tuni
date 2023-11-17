@@ -6,8 +6,9 @@ Environment 1: Ubuntu 22.04 (Oracle VM VirtualBox)
 sudo apt update
 sudo apt upgrade
 sudo apt install python3-pip
-pip 
+
 wget https://github.com/adilmoujahid/blockchain-python-tutorial
+mv blockchain-python-tutorial bc
 
 pip install ed25519 Crypto pycryptodome sortedcontainers flask flask-cors
 
