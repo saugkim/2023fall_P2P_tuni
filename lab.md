@@ -132,6 +132,13 @@ traffic on the interface used for the local network at the same time.
 In the Configure tab of the miner web GUI, add the IP address and port of the other node, for example: 10.0.0.2:5000 or localhost:5001. Remember to repeat this for the other node.
 
 
+**Answers:**    
+--> joining existing blockchain? NO   
+Start with node 1 creating genesis block, and node 2 join to the blockchain, which is created by node 1.    
+
+--> done 
+
+
 ## Mining
 
 As your wallet does not contain any currency at the moment, your task is to "mine" some currency. Go
@@ -140,8 +147,21 @@ terminal outputs, Wireshark output and the source code to find out what happens 
 then answer the following questions.
 ```
 1. What mining actually is, i.e. what happens when a block is being mined?
+
+--> mining is procedure of finding proof (nonce) == performing proof-of work and
+                           adding mined new block to the existing blockchain when proof was found.
+
+
 2. What is the function of nonce?
+
+--> nonce is random number to produce a unique hash value from the combination(concatenation in this exercise) of previous-proof and nonce, in a way that the hash value should meet required condition.  
+In this remote exercise, the hash value should start with 4 leading zero, "0000..."
+
+  
 3. When a block is considered to be valid and mined?
+
+-->
+
 4. What do the other nodes do when they receive a new mined block from you?
 ```
 
