@@ -166,7 +166,7 @@ In this remote exercise, the hash value should start with certain number of zero
 
 4. What do the other nodes do when they receive a new mined block from you?
 
---> blockchain updated, upgraded, the other node(node2) sees the newly mined block from node-1
+--> the other node(node-2) sees the updated blockchain, can see the newly mined block from node-1
 
 ```
 
@@ -183,9 +183,23 @@ It is enough to do this on one node.
 ```
 1. How does the blockchain network know that it was really this person that sent out the
 transaction?
+
+--> using public key and private key related to the public key,
+
+
+
 2. How does the blockchain network know whether you have enough currency to perform
 the transaction?
+
+--> blockchain holds all information, and blockchain is availabe to public, the balance is simply the result of looking at all the transactions for an address and determining which payment assignments made to that address remain unspent.
+
+
 3. Can you somehow find out how much currency anyone else has?
+
+--> I as a miner, i should know at least anyone who wants to make transactions (in the queue), has enough currency to make those transactions,
+
+--> I as a just client, and i somehow get someone's public key, then enough to bother to spend some time to look at all the trasactions then I can...
+
 ```
 
 Go back to the Mining tab and refresh the transactions in the blockchain by clicking the small blue
@@ -195,10 +209,24 @@ In Wireshark, find and examine the blockchain data, and answer the following que
 
 ```
 4. What kind of information is stored in the blockchain? (Hint: http://localhost:5000/chain)
+--> block number
+--> nonce
+--> previous_has
+--> timestamp
+--> transactions including reward (address of recipient and sender and amount) 
+
+
 5. How many blocks are now in the blockchain?
+--> currently 3
+
+
 6. What transactions were made in the latest block which included transactions?
+--> One transaction that client 1 sending 1000 to client 2
+
+
 7. Could you edit a past transaction and then pass off the chain as a newer valid one? Why
 or why not?
+
 ```
 
 ##  Double spending
