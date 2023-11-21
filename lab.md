@@ -145,24 +145,29 @@ As your wallet does not contain any currency at the moment, your task is to "min
 back to the Mining tab in the miner web GUI (top right corner) and click the mine button. Observe the
 terminal outputs, Wireshark output and the source code to find out what happens behind the scenes and
 then answer the following questions.
+
 ```
 1. What mining actually is, i.e. what happens when a block is being mined?
 
---> mining is procedure of finding proof (nonce) == performing proof-of work and
+--> mining is procedure of finding proof (nonce) == performing proof-of-work and
                            adding mined new block to the existing blockchain when proof was found.
 
 
 2. What is the function of nonce?
 
---> nonce is random number to produce a unique hash value from the combination(concatenation in this exercise) of previous-proof and nonce, in a way that the hash value should meet required condition.  
-In this remote exercise, the hash value should start with 4 leading zero, "0000..."
+--> nonce is random number to produce a unique hash value from the combination(string concatenation) of current transactions + previous-block-hash + nonce, in a way that the hash value should meet required condition.  
+In this remote exercise, the hash value should start with certain number of zeros('00...') and number of leading zero means mining difficuty.
 
   
 3. When a block is considered to be valid and mined?
 
--->
+--> when transactions are verified ...
+
 
 4. What do the other nodes do when they receive a new mined block from you?
+
+--> blockchain updated, upgraded, the other node(node2) sees the newly mined block from node-1
+
 ```
 
 ## Transactions
