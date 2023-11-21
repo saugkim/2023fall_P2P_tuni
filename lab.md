@@ -227,6 +227,7 @@ In Wireshark, find and examine the blockchain data, and answer the following que
 7. Could you edit a past transaction and then pass off the chain as a newer valid one? Why
 or why not?
 
+--> No, each block has previous block's hash value, it does not pass chain validation process
 ```
 
 ##  Double spending
@@ -242,8 +243,18 @@ the resulting blockchains on your nodes.
 
 ```
 1. What happened? What is this situation generally called?
+
+--> conflict in the blockchain, is a situation where two or more nodes try to add different blocks to the same branch of the blockchain, creating a temporary inconsistency
+
 2. How will this situation be resolved? What will happen to the other chain at that point?
+
+--> When one of node has longer chain than other node, blockchain holded by the other node(which has shorter blockchain) is updated with longer blockchain, longer chain wins
+--> nothing happens until one of node mines and update its blockchain
+
+
 3. What should be done to avoid negative consequences from situations like this?
+
+--> A conflict can be resolved by the consensus mechanism of the network-blockchain, which determines which block is valid and which is discarded
+--> the transactions in the discarded block should return to the transaction pool again to be mined 
+
 ```
-
-
