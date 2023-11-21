@@ -228,6 +228,7 @@ In Wireshark, find and examine the blockchain data, and answer the following que
 or why not?
 
 --> No, each block has previous block's hash value, it does not pass chain validation process
+the idea of a chain should be apparent—each new block contains within itself, the hash of the previous Block. This is crucial because it’s what gives blockchains immutability: If an attacker corrupted an earlier Block in the chain then all subsequent blocks will contain incorrect hashes.
 ```
 
 ##  Double spending
