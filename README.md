@@ -21,7 +21,13 @@ Late reports are accepted until the third exam date. However:
 
 If you wish to complete the lab at home:
 
-Practically any environment where you can install Python, the necessary modules, and access the web interface can be used. You need Python (at least 3.6) and some additional Python modules installed. Wireshark is optional, but might help. Missing modules can be installed using pip from the command line: pip install ed25519 Crypto pycryptodome sortedcontainers flask flask-cors
+Practically any environment where you can install Python, the necessary modules, and access the web interface can be used. You need Python (at least 3.6) and some additional Python modules installed.  
+Wireshark is optional, but might help. 
+
+Missing modules can be installed using pip from the command line: 
+```
+pip install ed25519 Crypto pycryptodome sortedcontainers flask flask-cors
+```
 
 On Windows, you may need to install C++ Build Tools, which is why it is recommended to use some other option.
 The blockchain implementation used in the assignment is open source and is available here [https://github.com/adilmoujahid/blockchain-python-tutorial].
